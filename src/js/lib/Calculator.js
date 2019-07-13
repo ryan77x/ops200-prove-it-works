@@ -12,6 +12,9 @@ module.exports = class Calculator {
     }
 
     divide(x, y){
+      if (y==0){
+        return "Infinity";
+      }
       return x/y;
     }
   }
